@@ -10,3 +10,6 @@ import {
   main as basecamp_connector
 } from "../mod.ts";
 
+const config_file = "./etc/config.yaml";
+
+await basecamp_connector( config_file );
