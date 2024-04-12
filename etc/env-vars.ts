@@ -6,5 +6,5 @@
 // for loading env vars
 import { load } from "./deps.ts";
 
-//console.log( "env-vars.ts : env : ", env );
+console.log( "env-vars.ts : env : ", env );
 

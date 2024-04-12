@@ -14,6 +14,9 @@ export { assert } from "https://deno.land/std/assert/assert.ts";
 export { load } from "https://deno.land/std/dotenv/mod.ts";
 
 // supporting util from dallmo
-//export { dallmo_util_yaml } from "https://deno.land/x/dallmo_util_yaml/mod.ts";
+export { dallmo_util_yaml } from "https://deno.land/x/dallmo_util_yaml/mod.ts";
 //export * as dallmo_util_math from "https://deno.land/x/dallmo_util_math/mod.ts";
+
+export * as oauth2 from 'https://deno.land/x/oauth4webapi@v2.10.4/mod.ts'
+
 
