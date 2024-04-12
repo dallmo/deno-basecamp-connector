@@ -1,6 +1,10 @@
 ---
-account_id: 123123
+account_id: 
+  dallmo_basecamp: 4292832
+  hkcnews_archive: 5138416
+
 api:
   url_prefix: https://3.basecampapi.com
+
 redirect_uri: https://dallmo.com/connector/basecamp
 

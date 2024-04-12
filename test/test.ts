@@ -6,3 +6,7 @@ import {
   assert
 } from "../etc/deps.ts";
 
+import {
+  main as basecamp_connector
+} from "../mod.ts";
+
