@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "run": "deno run -A app.ts",
+    "dev": "deno run --watch app.ts",
+    "check-all": "deno check app.ts mod.ts etc/deps.ts etc/interfaces.ts etc/env-vars.ts test/test.ts",
+    "update-cache": "deno cache --reload --lock-write etc/deps.ts"
+  }
+}

@@ -1,0 +1,8 @@
+
+/*
+ * define env-vars here.  this file also symlink to [root]/.env
+ * credential-related env-vars should be kept in local home and sourced separately
+ */
+
+
+
